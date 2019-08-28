@@ -1,0 +1,22 @@
+﻿  Application.cpp
+  Enemy.cpp
+  Enemy_RedBird.cpp
+  Globals.cpp
+  Main.cpp
+  ModuleCollision.cpp
+  ModuleEnemies.cpp
+  ModuleFadeToBlack.cpp
+  ModuleInput.cpp
+  ModuleParticles.cpp
+  ModulePlayer.cpp
+  ModuleRender.cpp
+  ModuleSceneIntro.cpp
+  ModuleSceneSpace.cpp
+  ModuleTextures.cpp
+  ModuleWindow.cpp
+  PM_ModuleEnemies.cpp
+  PM_ModulePlatform.cpp
+  PM_ModulePlayer.cpp
+  PM_ModuleSceneLevel1.cpp
+  Generando código...
+  SDL Game.vcxproj -> C:\Users\needl\OneDrive\Documentos\GitHub\Needlesslord\NutoStudios\P2 - PM - Platformer Mierdecilla\Base Code\Game\Debug\SDL8 Handout.exe
