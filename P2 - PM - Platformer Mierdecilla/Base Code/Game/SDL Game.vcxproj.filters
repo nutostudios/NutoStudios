@@ -89,6 +89,9 @@
     <ClInclude Include="PM_ModuleSceneLevel1.h">
       <Filter>Modules</Filter>
     </ClInclude>
+    <ClInclude Include="PM_ModulePlatform1.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -149,6 +152,9 @@
       <Filter>Modules</Filter>
     </ClCompile>
     <ClCompile Include="PM_ModuleSceneLevel1.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="PM_ModulePlatform1.cpp">
       <Filter>Modules</Filter>
     </ClCompile>
   </ItemGroup>
