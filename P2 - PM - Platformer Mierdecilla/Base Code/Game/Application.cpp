@@ -28,10 +28,10 @@ Application::Application()
 
 
 	//PM
-	modules[i++] = PM_scenelevel1 = new PM_ModuleSceneLevel1();										//PM
-	modules[i++] = PM_enemies = new PM_ModuleEnemies();												//PM
-	modules[i++] = PM_platform = new PM_ModulePlatform();											//PM
-	modules[i++] = PM_player = new PM_ModulePlayer();												//PM
+	//modules[i++] = PM_scenelevel1 = new PM_ModuleSceneLevel1();										//PM
+	//modules[i++] = PM_enemies = new PM_ModuleEnemies();												//PM
+	//modules[i++] = PM_platform = new PM_ModulePlatform();											//PM
+	//modules[i++] = PM_player = new PM_ModulePlayer();												//PM
 
 }	
 

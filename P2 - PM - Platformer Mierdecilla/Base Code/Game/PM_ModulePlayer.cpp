@@ -26,6 +26,52 @@ ModulePlayer::ModulePlayer()
 	down.PushBack({ 0, 1, 32, 14 });
 	down.loop = false;
 	down.speed = 0.1f;
+
+
+	//PM
+	idlePM_L.PushBack({ 0, 0, 0, 0 });											//PM
+	idlePM_L.PushBack({ 0, 0, 0, 0 });											//PM
+	idlePM_L.loop = false;											//PM
+	idlePM_L.speed = 0.1f;											//PM
+
+
+	walkPM_L.PushBack({ 0, 0, 0, 0 });											//PM
+	walkPM_L.PushBack({ 0, 0, 0, 0 });											//PM
+	walkPM_L.loop = false;											//PM
+	walkPM_L.speed = 0.1f;											//PM
+
+	jumpPM_L.PushBack({ 0, 0, 0, 0 });											//PM
+
+	diePM_L.PushBack({ 0, 0, 0, 0 });											//PM
+
+	fallPM_L.PushBack({ 0, 0, 0, 0 });											//PM
+
+	hurtPM_L.PushBack({ 0, 0, 0, 0 });											//PM	//mismo sprite que die, solo que solo se mueve horizontalmente
+
+
+	idlePM_R.PushBack({ 0, 0, 0, 0 });											//PM
+	idlePM_R.PushBack({ 0, 0, 0, 0 });											//PM
+	idlePM_R.loop = false;											//PM
+	idlePM_R.speed = 0.1f;											//PM
+
+	walkPM_R.PushBack({ 0, 0, 0, 0 });											//PM
+	walkPM_R.PushBack({ 0, 0, 0, 0 });											//PM
+	walkPM_R.loop = false;											//PM
+	walkPM_R.speed = 0.1f;											//PM
+
+	jumpPM_R.PushBack({ 0, 0, 0, 0 });											//PM
+
+	diePM_R.PushBack({ 0, 0, 0, 0 });											//PM
+
+	fallPM_R.PushBack({ 0, 0, 0, 0 });											//PM
+
+	hurt_R.PushBack({ 0, 0, 0, 0 });												//PM	//mismo sprite que die, solo que solo se mueve horizontalmente
+
+	winPM.PushBack({ 0, 0, 0, 0 });												//PM
+	winPM.PushBack({ 0, 0, 0, 0 });												//PM
+	winPM.loop = false;												//PM
+	winPM.speed = 0.1f;												//PM
+	//
 }
 
 ModulePlayer::~ModulePlayer()
@@ -43,6 +89,11 @@ bool ModulePlayer::Start()
 	position.y = 120;
 
 	col = App->collision->AddCollider({ position.x, position.y, 32, 16 }, COLLIDER_PLAYER, this);
+
+
+	//PM
+	currentstate = ST_IDLE_LEFT;
+	current_animation = &idlePM_L;
 
 	return true;
 }
