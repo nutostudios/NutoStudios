@@ -1,6 +1,8 @@
-﻿  Application.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (SDL8 Handout.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Application.cpp
   Enemy.cpp
   Enemy_RedBird.cpp
+  Globals.cpp
   Main.cpp
   ModuleCollision.cpp
   ModuleEnemies.cpp
@@ -18,15 +20,7 @@
   PM_ModulePlatform1.cpp
   PM_ModulePlayer.cpp
   Generando código...
-PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: __thiscall Enemy::Enemy(int,int)" (??0Enemy@@QAE@HH@Z) en Enemy.obj
-PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: virtual __thiscall Enemy::~Enemy(void)" (??1Enemy@@UAE@XZ) en Enemy.obj
-PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: virtual void __thiscall Enemy::Draw(struct SDL_Texture *)" (?Draw@Enemy@@UAEXPAUSDL_Texture@@@Z) en Enemy.obj
-PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: struct Collider const * __thiscall Enemy::GetCollider(void)const " (?GetCollider@Enemy@@QBEPBUCollider@@XZ) en Enemy.obj
-PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: virtual void __thiscall Enemy::OnCollision(struct Collider *)" (?OnCollision@Enemy@@UAEXPAUCollider@@@Z) en Enemy.obj
-PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: __thiscall ModulePlayer::ModulePlayer(void)" (??0ModulePlayer@@QAE@XZ) en ModulePlayer.obj
-PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual __thiscall ModulePlayer::~ModulePlayer(void)" (??1ModulePlayer@@UAE@XZ) en ModulePlayer.obj
-PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual bool __thiscall ModulePlayer::CleanUp(void)" (?CleanUp@ModulePlayer@@UAE_NXZ) en ModulePlayer.obj
-PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual void __thiscall ModulePlayer::OnCollision(struct Collider *,struct Collider *)" (?OnCollision@ModulePlayer@@UAEXPAUCollider@@0@Z) en ModulePlayer.obj
-PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual bool __thiscall ModulePlayer::Start(void)" (?Start@ModulePlayer@@UAE_NXZ) en ModulePlayer.obj
-PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual enum update_status __thiscall ModulePlayer::Update(void)" (?Update@ModulePlayer@@UAE?AW4update_status@@XZ) en ModulePlayer.obj
-C:\Users\needl\OneDrive\Documentos\GitHub\Needlesslord\NutoStudios\P2 - PM - Platformer Mierdecilla\Base Code\Game\Debug\SDL8 Handout.exe : fatal error LNK1169: se encontraron uno o mßs sÝmbolos definidos simultßneamente
+  Compilando...
+  PM_ModuleSceneLevel1.cpp
+  Generando código...
+  SDL Game.vcxproj -> C:\Users\needl\OneDrive\Documentos\GitHub\Needlesslord\NutoStudios\P2 - PM - Platformer Mierdecilla\Base Code\Game\Debug\SDL Game.exe

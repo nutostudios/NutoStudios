@@ -1,3 +1,5 @@
+/*
+
 #include "Application.h"
 #include "PM_ModulePlatform.h"
 #include "ModuleCollision.h"
@@ -31,3 +33,5 @@ void Platform::OnCollision(Collider* collider)
 {
 	App->particles->AddParticle(App->particles->explosion, position.x, position.y);
 }
+
+*/

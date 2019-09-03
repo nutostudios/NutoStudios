@@ -1,3 +1,5 @@
+/*
+
 #ifndef __PLATFORM_H__
 #define __PLATFORM_H__
 
@@ -28,3 +30,5 @@ public:
 };
 
 #endif // __PLATFORM_H__
+
+*/

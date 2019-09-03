@@ -18,11 +18,13 @@ class ModuleCollision;
 class ModuleEnemies;
 class Module;
 
+/*
 //PM
 class PM_ModuleSceneLevel1;											//PM
 class PM_ModuleEnemies;												//PM
 class PM_ModulePlatform;											//PM
 class PM_ModulePlayer;												//PM
+*/
 
 
 class Application
@@ -42,11 +44,13 @@ public:
 	ModuleParticles* particles;
 	ModuleEnemies* enemies;
 
+	/*
 	//PM
 	PM_ModuleSceneLevel1* PM_scenelevel1;									//PM
 	PM_ModuleEnemies* PM_enemies;											//PM
 	PM_ModulePlatform* PM_platform;											//PM
 	PM_ModulePlayer* PM_player;												//PM
+	*/
 
 
 public:

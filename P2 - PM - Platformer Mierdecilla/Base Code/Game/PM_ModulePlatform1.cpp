@@ -1,3 +1,5 @@
+/*
+
 #include "Application.h"
 #include "PM_ModulePlatform1.h"
 #include "ModuleCollision.h"
@@ -36,3 +38,5 @@ Platform1::Platform1(int x, int y) : Platform(x, y)
 //	position.y = int(float(original_y) + (25.0f * sinf(wave)));
 //	position.x -= 1;
 //}
+
+*/

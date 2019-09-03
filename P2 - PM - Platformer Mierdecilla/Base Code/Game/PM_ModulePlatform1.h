@@ -1,3 +1,5 @@
+/*
+
 #ifndef __PLATFORM1_H__
 #define __PLATFORM1_H__
 
@@ -44,3 +46,4 @@ public:
 //
 //#endif // __PLATFORM1_H__
 
+*/
