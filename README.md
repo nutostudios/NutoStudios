@@ -67,9 +67,9 @@ _Under construction_
 
 Developed by Nuto Studios:
 
-[Github](https://github.com/InvictaStudios/InvictaStudios): https://github.com/InvictaStudios/InvictaStudios
+[Github](https://github.com/nutostudios/NutoStudios): https://github.com/nutostudios/NutoStudios
 
-[Our web page](https://invictastudios.github.io/InvictaStudios/): https://invictastudios.github.io/InvictaStudios/
+[Our web page](https://nutostudios.github.io/NutoStudios/): https://nutostudios.github.io/NutoStudios/
 
 
 
