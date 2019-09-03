@@ -1,7 +1,6 @@
 ﻿  Application.cpp
   Enemy.cpp
   Enemy_RedBird.cpp
-  Globals.cpp
   Main.cpp
   ModuleCollision.cpp
   ModuleEnemies.cpp
@@ -16,7 +15,18 @@
   ModuleWindow.cpp
   PM_ModuleEnemies.cpp
   PM_ModulePlatform.cpp
+  PM_ModulePlatform1.cpp
   PM_ModulePlayer.cpp
-  PM_ModuleSceneLevel1.cpp
   Generando código...
-  SDL Game.vcxproj -> C:\Users\needl\OneDrive\Documentos\GitHub\Needlesslord\NutoStudios\P2 - PM - Platformer Mierdecilla\Base Code\Game\Debug\SDL8 Handout.exe
+PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: __thiscall Enemy::Enemy(int,int)" (??0Enemy@@QAE@HH@Z) en Enemy.obj
+PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: virtual __thiscall Enemy::~Enemy(void)" (??1Enemy@@UAE@XZ) en Enemy.obj
+PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: virtual void __thiscall Enemy::Draw(struct SDL_Texture *)" (?Draw@Enemy@@UAEXPAUSDL_Texture@@@Z) en Enemy.obj
+PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: struct Collider const * __thiscall Enemy::GetCollider(void)const " (?GetCollider@Enemy@@QBEPBUCollider@@XZ) en Enemy.obj
+PM_ModuleEnemies.obj : error LNK2005: ya se defini¾ "public: virtual void __thiscall Enemy::OnCollision(struct Collider *)" (?OnCollision@Enemy@@UAEXPAUCollider@@@Z) en Enemy.obj
+PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: __thiscall ModulePlayer::ModulePlayer(void)" (??0ModulePlayer@@QAE@XZ) en ModulePlayer.obj
+PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual __thiscall ModulePlayer::~ModulePlayer(void)" (??1ModulePlayer@@UAE@XZ) en ModulePlayer.obj
+PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual bool __thiscall ModulePlayer::CleanUp(void)" (?CleanUp@ModulePlayer@@UAE_NXZ) en ModulePlayer.obj
+PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual void __thiscall ModulePlayer::OnCollision(struct Collider *,struct Collider *)" (?OnCollision@ModulePlayer@@UAEXPAUCollider@@0@Z) en ModulePlayer.obj
+PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual bool __thiscall ModulePlayer::Start(void)" (?Start@ModulePlayer@@UAE_NXZ) en ModulePlayer.obj
+PM_ModulePlayer.obj : error LNK2005: ya se defini¾ "public: virtual enum update_status __thiscall ModulePlayer::Update(void)" (?Update@ModulePlayer@@UAE?AW4update_status@@XZ) en ModulePlayer.obj
+C:\Users\needl\OneDrive\Documentos\GitHub\Needlesslord\NutoStudios\P2 - PM - Platformer Mierdecilla\Base Code\Game\Debug\SDL8 Handout.exe : fatal error LNK1169: se encontraron uno o mßs sÝmbolos definidos simultßneamente
