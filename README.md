@@ -19,10 +19,6 @@
 
 
 
-![foto](https://user-images.githubusercontent.com/45202050/54494645-dd0afa80-48dc-11e9-9ecb-0e7b0ffe4e87.png)
-
-
-
 **Co-owner:** Tomás Carreras Ugarte
 
 	GitHub: tomascarreras1000
@@ -43,6 +39,12 @@ _Under construction_
 On going Projects:
 
 - Platformer Mierdecita _(web link under construction)_
+- Platformer about _Hangul_ _(web link under construction)_
+
+	Collaborations:
+	- Platformer Magicians *with Enric-G. Durán*  _(web link under construction)_
+
+*Note: This names are temporary.
 
 
 Future Projects:
