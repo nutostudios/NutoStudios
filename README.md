@@ -31,28 +31,32 @@
 
 ## Content
 
-Finished Projects:
+__Finished Projects:__
 
 _Under construction_
 
 
-On going Projects:
+
+__On going Projects:__
 
 - Platformer Mierdecita _(web link under construction)_
 - Platformer about _Hangul_ _(web link under construction)_
 
 	Collaborations:
-	- Platformer Magicians *with Enric-G. Durán*  _(web link under construction)_
+	- Platformer Magicians __with Enric-G. Durán__  _(web link under construction)_
+
 
 *Note: This names are temporary.
 
 
-Future Projects:
+
+__Future Projects:__
 
 _Under construction_
 
 
-Participated in:
+
+__Participated in:__
 
 [Invicta Studios](https://invictastudios.github.io/InvictaStudios/): https://invictastudios.github.io/InvictaStudios/
 
