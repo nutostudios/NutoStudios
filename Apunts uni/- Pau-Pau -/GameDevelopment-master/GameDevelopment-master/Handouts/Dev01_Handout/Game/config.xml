@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+  <window height="768" width="1024">
+    <title>The game that will lift Spain</title>
+    <fullscreen> false </fullscreen>
+    <borderless> false </borderless>
+  </window>
+  <input></input>
+  <audio volume="256"></audio>
+</config>
