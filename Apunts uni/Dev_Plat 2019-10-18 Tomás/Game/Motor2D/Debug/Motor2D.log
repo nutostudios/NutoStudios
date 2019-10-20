@@ -1,0 +1,18 @@
+﻿  j1App.cpp
+  j1Audio.cpp
+  j1Collisions.cpp
+  j1Input.cpp
+  j1Intro.cpp
+  j1Main.cpp
+  j1Player.cpp
+C:\Users\tomas\Documents\GitHub\Platformer_GD\Game\Motor2D\j1Player.cpp(50,23): warning C4129: 's': unrecognized character escape sequence
+C:\Users\tomas\Documents\GitHub\Platformer_GD\Game\Motor2D\j1Player.cpp(106,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\tomas\Documents\GitHub\Platformer_GD\Game\Motor2D\j1Player.cpp(109,18): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\tomas\Documents\GitHub\Platformer_GD\Game\Motor2D\j1Player.cpp(154,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  j1Render.cpp
+  j1Scene.cpp
+  j1Textures.cpp
+  j1Window.cpp
+  Generating Code...
+C:\Users\tomas\Documents\GitHub\Platformer_GD\Game\Motor2D\j1Player.cpp(154,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Motor2D.vcxproj -> C:\Users\tomas\Documents\GitHub\Platformer_GD\Game\Debug\Ninja Frog Against Gravity.exe
