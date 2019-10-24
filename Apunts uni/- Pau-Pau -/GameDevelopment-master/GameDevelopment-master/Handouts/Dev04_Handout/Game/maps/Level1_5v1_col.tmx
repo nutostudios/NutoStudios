@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="300" height="250" tilewidth="16" tileheight="16" infinite="0" nextobjectid="241">
  <tileset firstgid="1" name="Tiles_Sand_Mud_Ice_16" tilewidth="16" tileheight="16" tilecount="55" columns="11">
-  <image source="test.png" width="176" height="80"/>
+  <image source="maps/png/Tiles_Sand_Mud_Ice_16.png" width="176" height="80"/>
   <terraintypes>
    <terrain name="Void" tile="-1"/>
    <terrain name="Sand" tile="-1"/>
@@ -38,16 +38,16 @@
   <tile id="46" terrain="0,0,0,0"/>
  </tileset>
  <tileset firstgid="56" name="Terrain_16" tilewidth="16" tileheight="16" tilecount="242" columns="22">
-  <image source="test.png" width="352" height="176"/>
+  <image source="maps/png/Terrain_16.png" width="352" height="176"/>
  </tileset>
  <tileset firstgid="298" name="Background_Brown" tilewidth="16" tileheight="16" tilecount="16" columns="4">
-  <image source="test.png" width="64" height="64"/>
+  <image source="maps/png/Background_Brown.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="314" name="Background_Green" tilewidth="16" tileheight="16" tilecount="16" columns="4">
-  <image source="test.png" width="64" height="64"/>
+  <image source="maps/png/Background_Green.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="330" name="Background_Pink" tilewidth="16" tileheight="16" tilecount="16" columns="4">
-  <image source="test.png" width="64" height="64"/>
+  <image source="maps/png/Background_Pink.png" width="64" height="64"/>
  </tileset>
  <layer name="Fondo" width="300" height="250" locked="1">
   <data>
