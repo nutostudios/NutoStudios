@@ -30,7 +30,8 @@ bool j1Scene::Awake()
 // Called before the first frame
 bool j1Scene::Start()
 {
-	App->map->Load("Level1.tmx");
+	App->map->Load("Level1_5v1_col.tmx");
+	t = App->tex->Load("maps/Tiles_Sand_Mud_Ice_16.png");
 	return true;
 }
 
@@ -61,7 +62,7 @@ bool j1Scene::Update(float dt)
 	if(App->input->GetKey(SDL_SCANCODE_RIGHT) == KEY_REPEAT)
 		App->render->camera.x += 1;
 
-	//App->render->Blit(img, 0, 0);
+	App->render->Blit(t, 0, 0);
 	App->map->Draw();
 
 	p2SString title("Map:%dx%d Tiles:%dx%d Tilesets:%d",
