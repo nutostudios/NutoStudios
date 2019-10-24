@@ -37,19 +37,20 @@ void j1Map::Draw()
 
 	pugi::xml_node* Iterator = & map_file.child("map").child("layer").child("data").child("tile"); 
 
-	for (int y = 0; y < data.height; y++) {
-		for (int x = 0; x < data.width; x++) {
-		
+	App->render->Blit(data.tilesets[1]->texture, 10, 10);
+	//for (int y = 0; y < data.height; y++) {
+	//	for (int x = 0; x < data.width; x++) {
+	//	
 			
-			App->render->Blit(data.tilesets[0]->texture, 
-				data.tilesets[0]->GetPos(x, y).x, data.tilesets[0]->GetPos(x, y).y,
-				data.tilesets[0]->TileRect(Iterator->attribute("gid").as_uint()));
-			//SDL_Rect* debug = data.tilesets[0]->TileRect(Iterator->attribute("gid").as_uint());
+	//		App->render->Blit(data.tilesets[0]->texture, 
+	//			data.tilesets[0]->GetPos(x, y).x, data.tilesets[0]->GetPos(x, y).y,
+	//			data.tilesets[0]->TileRect(Iterator->attribute("gid").as_uint()));
+	//		SDL_Rect* debug = data.tilesets[0]->TileRect(Iterator->attribute("gid").as_uint());
 		
-			 Iterator = & Iterator->next_sibling("tile");
+	//		 Iterator = & Iterator->next_sibling("tile");
 
-		}
-	}
+	//	}
+	//}
 	
 
 
