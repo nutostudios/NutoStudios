@@ -6,6 +6,8 @@
 #include "j1Entity.h"
 #include "j1EntityManager.h"
 #include "j1Player.h"
+#include "j1Map.h"
+
 
 #define VSYNC true
 
@@ -197,6 +199,23 @@ bool j1Render::DrawQuad(const SDL_Rect& rect, Uint8 r, Uint8 g, Uint8 b, Uint8 a
 
 	return ret;
 }
+
+
+bool j1Render::IsOnCamera(int x, int y, int w, int h, int player_position)
+{
+	bool ret = false;
+
+	int camera_width = App->win->width / 2;
+	SDL_Rect tile_to_print = { App->map->MapToWorld(x,y).x, App->map->MapToWorld(x,y).y, w, h };
+
+	if (player_position - camera_width <= tile_to_print.x && player_position + camera_width >= tile_to_print.x)
+		ret = true;
+
+	else ret = false;
+
+	return ret;
+}
+
 
 bool j1Render::DrawLine(int x1, int y1, int x2, int y2, Uint8 r, Uint8 g, Uint8 b, Uint8 a, bool use_camera) const
 {

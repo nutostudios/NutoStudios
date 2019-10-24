@@ -30,13 +30,19 @@ bool j1Map::Awake(pugi::xml_node& config)
 	return ret;
 }
 
+
 void j1Map::Draw()
+
+//void j1Map::Draw(int player_pos)
+
 {
 	if (map_loaded == false)
 		return;
 
 	p2List_item<MapLayer*>* layer;
 
+
+	int tiles_painted = 0;
 	int tile_num;
 	for (layer = data.layers.start; layer != nullptr; layer = layer->next)
 	{
@@ -45,38 +51,85 @@ void j1Map::Draw()
 		{
 			for (int x = 0; x < data.width; ++x)
 			{
-				int tile_id = layer->data->data[tile_num];
-				if (tile_id > 0)
+
+				//int tile_id = layer->data->data[tile_num];
+				//if (tile_id > 0)
+				//{
+				//	TileSet* tileset = GetTilesetFromTileId(tile_id);
+				//	if (tileset != nullptr)
+				//	{
+				//		SDL_Rect r = tileset->GetTileRect(tile_id);
+				//		iPoint pos = MapToWorld(x, y);
+				//		if (layer->data->name == "Decor")
+				//			App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 1.0F);
+				//		else if (layer->data->name == "anim")
+				//			App->render->Blit(tileset->texture, pos.x, pos.y, &tileset->tmxAnim->GetCurrentFrame(), SDL_FLIP_NONE, 1.0F); //animations layer
+				//		else if(layer->data->name == "Capa de Patrones 1")
+				//			App->render->Blit(tileset->texture, pos.x, pos.y, &r);  //playable layer
+				//		else if (layer->data->name == "parallax")
+				//			App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.8F);
+				//		else if (layer->data->name == "parallax2")
+				//			App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.5F);
+				//		else if (layer->data->name == "parallax3")
+				//			App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.7F);
+				//		else if (layer->data->name == "parallax4")
+				//			App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.3F);
+				//		else if (layer->data->name == "bg")
+				//			App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.057F);
+				//	}
+				//}
+
+
+				// if (App->render->IsOnCamera(x, y, data.tile_width, data.tile_height, player_pos)) 
 				{
-					TileSet* tileset = GetTilesetFromTileId(tile_id);
-					if (tileset != nullptr)
+
+					int tile_id = layer->data->data[tile_num];
+					if (tile_id > 0)
 					{
-						SDL_Rect r = tileset->GetTileRect(tile_id);
-						iPoint pos = MapToWorld(x, y);
-						if (layer->data->name == "Decor")
-							App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 1.0F);
-						else if (layer->data->name == "anim")
-							App->render->Blit(tileset->texture, pos.x, pos.y, &tileset->tmxAnim->GetCurrentFrame(), SDL_FLIP_NONE, 1.0F); //animations layer
-						else if(layer->data->name == "Capa de Patrones 1")
-							App->render->Blit(tileset->texture, pos.x, pos.y, &r);  //playable layer
-						else if (layer->data->name == "parallax")
-							App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.8F);
-						else if (layer->data->name == "parallax2")
-							App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.5F);
-						else if (layer->data->name == "parallax3")
-							App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.7F);
-						else if (layer->data->name == "parallax4")
-							App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.3F);
-						else if (layer->data->name == "bg")
-							App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.057F);
+						TileSet* tileset = GetTilesetFromTileId(tile_id);
+						if (tileset != nullptr)
+						{
+							tiles_painted++;
+							SDL_Rect r = tileset->GetTileRect(tile_id);
+							iPoint pos = MapToWorld(x, y);
+							if (layer->data->name == "Decor")
+								App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 1.0F);
+							else if (layer->data->name == "anim")
+								App->render->Blit(tileset->texture, pos.x, pos.y, &tileset->tmxAnim->GetCurrentFrame(), SDL_FLIP_NONE, 1.0F); //animations layer
+							else if (layer->data->name == "Capa de Patrones 1")
+								App->render->Blit(tileset->texture, pos.x, pos.y, &r);  //playable layer
+							else if (layer->data->name == "parallax")
+								App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.8F);
+							else if (layer->data->name == "parallax2")
+								App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.5F);
+							else if (layer->data->name == "parallax3")
+								App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.7F);
+							else if (layer->data->name == "parallax4")
+								App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.3F);
+							else if (layer->data->name == "bg")
+								App->render->Blit(tileset->texture, pos.x, pos.y, &r, SDL_FLIP_NONE, 0.057F);
+						}
 					}
 				}
+
 
 				tile_num++;
 			}
 		}
 	}
 
+
+	static char title[30];
+	sprintf_s(title, 30, " | Tiles Rendered: %u", tiles_painted);
+	App->win->SetTitle(title);
+
+	if (draw_grid) {
+		for (uint i = 0; i < data.width; ++i) {
+			for (uint j = 0; j < data.height; ++j) {
+				App->render->Blit(grid, MapToWorld(i, j).x, MapToWorld(i, j).y);
+			}
+		}
+	}
 
 }
 
@@ -256,6 +309,9 @@ bool j1Map::Load(const char* file_name)
 		}
 	}
 
+
+	grid = App->tex->Load("maps/Quad_Ortho.png");
+¡
 	LoadColliders();
 
 	map_loaded = ret;
