@@ -32,7 +32,8 @@ public:
 	// Called before quitting
 	bool CleanUp();
 
-	SDL_Texture* Rick;
+	SDL_Texture* t;
+
 private:
 };
 
