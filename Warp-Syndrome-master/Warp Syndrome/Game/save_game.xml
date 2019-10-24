@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<game_state>
+	<input />
+	<window />
+	<textures />
+	<audio />
+	<level_m />
+	<map name="first_level.tmx" />
+	<collision />
+	<state />
+	<scene />
+	<player x="1516" y="1760" />
+	<grenade />
+	<:anonymous />
+	<renderer>
+		<camera x="-1106" y="-1248" />
+	</renderer>
+</game_state>
