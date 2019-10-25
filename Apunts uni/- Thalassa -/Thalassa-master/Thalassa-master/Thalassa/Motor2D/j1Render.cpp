@@ -8,6 +8,7 @@
 #include "j1Player.h"
 #include "j1Map.h"
 
+
 #define VSYNC true
 
 j1Render::j1Render() : j1Module()
@@ -199,6 +200,7 @@ bool j1Render::DrawQuad(const SDL_Rect& rect, Uint8 r, Uint8 g, Uint8 b, Uint8 a
 	return ret;
 }
 
+
 bool j1Render::IsOnCamera(int x, int y, int w, int h, int player_position)
 {
 	bool ret = false;
@@ -213,6 +215,7 @@ bool j1Render::IsOnCamera(int x, int y, int w, int h, int player_position)
 
 	return ret;
 }
+
 
 bool j1Render::DrawLine(int x1, int y1, int x2, int y2, Uint8 r, Uint8 g, Uint8 b, Uint8 a, bool use_camera) const
 {

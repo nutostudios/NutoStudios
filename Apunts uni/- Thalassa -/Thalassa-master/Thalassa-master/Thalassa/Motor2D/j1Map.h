@@ -81,7 +81,11 @@ public:
 	bool Awake(pugi::xml_node& conf);
 
 	// Called each loop iteration
+
+	//	void Draw();
+
 	void Draw(int player_pos);
+
 
 	// Called before quitting
 	bool CleanUp();
@@ -107,7 +111,9 @@ public:
 
 	MapData data;
 
+
 	bool draw_grid = false;
+
 
 private:
 
@@ -116,6 +122,7 @@ private:
 	p2SString			folder;
 	bool				map_loaded;
 	SDL_Texture*		grid = nullptr;
+
 };
 
 #endif // __j1MAP_H__
