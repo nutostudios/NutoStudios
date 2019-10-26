@@ -1,5 +1,13 @@
-﻿  j1App.cpp
+﻿  j1Main.cpp
+  j1App.cpp
+  j1Audio.cpp
+  j1Input.cpp
   j1Map.cpp
   j1Scene.cpp
-  Generating Code...
-  Motor2D.vcxproj -> E:\System_Folders\Downloads\Dev_class5_handout\Dev04_Handout\Debug\Motor 2D.exe
+  p2Log.cpp
+  j1Render.cpp
+  j1Textures.cpp
+  j1Window.cpp
+  pugixml.cpp
+  Generando código...
+LINK : fatal error LNK1104: no se puede abrir el archivo 'SDL/libx86/SDL2.lib'
