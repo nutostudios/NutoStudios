@@ -31,9 +31,9 @@ bool j1Map::Awake(pugi::xml_node& config)
 }
 
 
-void j1Map::Draw()
+//void j1Map::Draw()
 
-//void j1Map::Draw(int player_pos)
+void j1Map::Draw(int player_pos)
 
 {
 	if (map_loaded == false)
@@ -311,7 +311,7 @@ bool j1Map::Load(const char* file_name)
 
 
 	grid = App->tex->Load("maps/Quad_Ortho.png");
-¡
+
 	LoadColliders();
 
 	map_loaded = ret;
