@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<!--   Save File for the Game    -->
+<save>
+  <input />
+  <window />
+  <textures />
+  <audio />
+  <scene />
+  <renderer>
+    <camera x="332" y="510" />
+  </renderer>
+</save>
