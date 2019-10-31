@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<game_state>
+	<input />
+	<window />
+	<textures />
+	<audio>
+		<volume value="50" />
+	</audio>
+	<scene>
+		<KnowMap value="1" />
+	</scene>
+	<map />
+	<choose />
+	<:anonymous />
+	<player>
+		<position x="641.05011" y="160.092453" />
+	</player>
+	<renderer>
+		<camera x="-141" y="0" />
+	</renderer>
+</game_state>
