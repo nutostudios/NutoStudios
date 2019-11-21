@@ -1,0 +1,26 @@
+﻿  Application.cpp
+  log.cpp
+  Main.cpp
+  ModuleAudio.cpp
+  ModuleFadeToBlack.cpp
+  ModuleFinish.cpp
+  ModuleFonts.cpp
+  ModuleInput.cpp
+  ModulePhysics.cpp
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- victor-oriol -\victor_segura_oriol_capdevila-master\victor_segura_oriol_capdevila-master\pinball\modulephysics.cpp(132): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- victor-oriol -\victor_segura_oriol_capdevila-master\victor_segura_oriol_capdevila-master\pinball\modulephysics.cpp(133): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- victor-oriol -\victor_segura_oriol_capdevila-master\victor_segura_oriol_capdevila-master\pinball\modulephysics.cpp(176): warning C4018: '<': no coinciden signed/unsigned
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- victor-oriol -\victor_segura_oriol_capdevila-master\victor_segura_oriol_capdevila-master\pinball\modulephysics.cpp(382): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- victor-oriol -\victor_segura_oriol_capdevila-master\victor_segura_oriol_capdevila-master\pinball\modulephysics.cpp(383): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- victor-oriol -\victor_segura_oriol_capdevila-master\victor_segura_oriol_capdevila-master\pinball\modulephysics.cpp(389): warning C4244: 'return': conversión de 'float32' a 'int'; posible pérdida de datos
+  ModulePlayer.cpp
+  ModuleRender.cpp
+  ModuleSceneIntro.cpp
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- victor-oriol -\victor_segura_oriol_capdevila-master\victor_segura_oriol_capdevila-master\pinball\modulesceneintro.cpp(205): warning C4101: 'y': variable local sin referencia
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- victor-oriol -\victor_segura_oriol_capdevila-master\victor_segura_oriol_capdevila-master\pinball\modulesceneintro.cpp(205): warning C4101: 'x': variable local sin referencia
+  ModuleTextures.cpp
+  ModuleTutorial.cpp
+  ModuleUi.cpp
+  ModuleWindow.cpp
+  Generando código...
+LINK : fatal error LNK1104: no se puede abrir el archivo 'Box2D/libx86/Debug/Box2D.lib'

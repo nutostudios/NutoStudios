@@ -1,0 +1,22 @@
+﻿  Application.cpp
+  log.cpp
+  Main.cpp
+  ModuleAudio.cpp
+  ModuleFonts.cpp
+  ModuleInput.cpp
+  ModulePhysics.cpp
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- laia martinez -\pinball-2d-master\pinball-2d-master\physics2_class_4_handout\modulephysics.cpp(103): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- laia martinez -\pinball-2d-master\pinball-2d-master\physics2_class_4_handout\modulephysics.cpp(104): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- laia martinez -\pinball-2d-master\pinball-2d-master\physics2_class_4_handout\modulephysics.cpp(147): warning C4018: '<': no coinciden signed/unsigned
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- laia martinez -\pinball-2d-master\pinball-2d-master\physics2_class_4_handout\modulephysics.cpp(182): warning C4018: '<': no coinciden signed/unsigned
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- laia martinez -\pinball-2d-master\pinball-2d-master\physics2_class_4_handout\modulephysics.cpp(392): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- laia martinez -\pinball-2d-master\pinball-2d-master\physics2_class_4_handout\modulephysics.cpp(393): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- laia martinez -\pinball-2d-master\pinball-2d-master\physics2_class_4_handout\modulephysics.cpp(399): warning C4244: 'return': conversión de 'float32' a 'int'; posible pérdida de datos
+  ModuleUI.cpp
+  ModuleRender.cpp
+  ModuleSceneIntro.cpp
+c:\users\nurialp2\documents\github\nutostudios\apunts uni\- laia martinez -\pinball-2d-master\pinball-2d-master\physics2_class_4_handout\modulesceneintro.cpp(390): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  ModuleTextures.cpp
+  ModuleWindow.cpp
+  Generando código...
+LINK : fatal error LNK1104: no se puede abrir el archivo 'Box2D/libx86/Debug/Box2D.lib'
